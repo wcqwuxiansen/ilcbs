@@ -14,6 +14,7 @@ public class Demo1Servlet extends HttpServlet {
         resp.getWriter().write("hello world ,你好哈！！！");
         resp.getWriter().write("hello git ");
 		resp.getWriter().write("right!!!!!");
+    }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
