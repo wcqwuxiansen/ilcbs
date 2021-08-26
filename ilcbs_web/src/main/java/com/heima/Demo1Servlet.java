@@ -15,6 +15,7 @@ public class Demo1Servlet extends HttpServlet {
         resp.getWriter().write("hello git ");
         resp.getWriter().write("right!!!!!");
         resp.getWriter().write("left！！！！");
+        resp.getWriter().write("hot_fix分支");
     }
 
     @Override
