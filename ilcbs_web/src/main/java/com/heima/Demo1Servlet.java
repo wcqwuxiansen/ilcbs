@@ -13,6 +13,7 @@ public class Demo1Servlet extends HttpServlet {
         resp.setContentType("text/html;charset=utf-8");
         resp.getWriter().write("hello world ,你好哈！！！");
         resp.getWriter().write("hello git ");
+        resp.getWriter().write("left！！！！");
     }
 
     @Override
