@@ -16,6 +16,7 @@ public class Demo1Servlet extends HttpServlet {
 		resp.getWriter().write("right!!!!!");
 		resp.getWriter().write("left！！！！");
         resp.getWriter().write("hot_fix分支");
+        resp.getWriter().write("完成版本回退");
     }
 
     @Override
