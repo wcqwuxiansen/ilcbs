@@ -18,6 +18,13 @@ public class Demo1Servlet extends HttpServlet {
         resp.getWriter().write("hot_fix分支");
         resp.getWriter().write("完成版本回退");
         
+        System.out.println("-----------------------");
+        resp.getWriter().write("new feature1");
+        resp.getWriter().write("new feature2");
+        resp.getWriter().write("new feature3");
+        resp.getWriter().write("new feature4");
+        resp.getWriter().write("new feature5");
+        resp.getWriter().write("new feature6");
         System.out.println("master分支更新");
         resp.getWriter().write("master分支更新");
         resp.getWriter().write("master分支更新");
