@@ -30,6 +30,7 @@ public class Demo1Servlet extends HttpServlet {
         resp.getWriter().write("master分支更新");
         resp.getWriter().write("master分支更新");
         resp.getWriter().write("master分支更新");
+        System.out.println("master分支更新");
     }
 
     @Override
