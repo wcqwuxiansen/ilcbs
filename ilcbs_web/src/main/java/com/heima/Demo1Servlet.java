@@ -20,6 +20,7 @@ public class Demo1Servlet extends HttpServlet {
         
         System.out.println("-----------------------");
         resp.getWriter().write("new feature1");
+        System.out.println("2022/2/28");
         resp.getWriter().write("new feature2");
         resp.getWriter().write("new feature3");
 	System.out.println("2022测试1");
@@ -33,6 +34,7 @@ public class Demo1Servlet extends HttpServlet {
         resp.getWriter().write("master分支更新");
         System.out.println("master分支更新");
         System.out.println("---------------");
+        System.out.println("2022/2/28");
         System.out.println("dev分支更新");
         System.out.println("2022测试5");
 
