@@ -14,6 +14,8 @@ public class Demo3Servlet extends HttpServlet {
 		System.out.println("hello git");
 		System.out.println("hello git");
 		System.out.println("hello git");
+		System.out.println("hello git1");
+		System.out.println("hello git2");
 	}
 
 	@Override

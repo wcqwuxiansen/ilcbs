@@ -17,7 +17,11 @@ public class Demo2Servlet extends HttpServlet {
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		
+		System.out.println("2022测试3");
+		System.out.println("2024测试3");
+
+		System.out.println("2023测试3");
+
 		super.doPost(req, resp);
 	}
 	
