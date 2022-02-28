@@ -12,6 +12,7 @@ public class Demo2Servlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		System.out.println("111111111111111111111111111");
+		System.out.println("2024测试22222222222222222222222222222");
 		super.doGet(req, resp);
 	}
 
