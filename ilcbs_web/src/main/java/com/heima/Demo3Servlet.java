@@ -11,7 +11,7 @@ public class Demo3Servlet extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		
+		resp.getWriter().write("hello git111111111111111111111111111111111 ");
 	}
 
 	@Override
