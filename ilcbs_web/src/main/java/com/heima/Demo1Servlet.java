@@ -20,6 +20,7 @@ public class Demo1Servlet extends HttpServlet {
         resp.getWriter().write("hello git1111 ");
         resp.getWriter().write("hello git2 ");
         resp.getWriter().write("hello git2 master ");
+        resp.getWriter().write("hello git2  prod");
     }
 
     @Override
